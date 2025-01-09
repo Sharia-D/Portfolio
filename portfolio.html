@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>its-doraa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(68, 12, 102);
+        }
+        h1, h2, h3 {
+            margin: 0;
+        }
+        /* Hero Section */
+        #hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+        url('https://img.freepik.com/free-photo/flat-lay-blue-monday-paper-with-copy-space_23-2148756188.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+#hero .content {
+    max-width: 50%;
+}
+
+#hero .content h1 {
+    font-size: 3rem;
+    color: #f2f7f2;
+}
+
+#hero .graphic img {
+    max-width: 100%;
+    height: auto;
+}
+#hero .content h1 {
+    animation: fadeInLeft 1.5s ease-in-out;
+}
+
+#hero .graphic img {
+    animation: bounceIn 2s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceIn {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+        #hero a {
+            padding: 10px 20px;
+            background: rgb(248, 248, 250);
+            color: #31072f;
+            border-radius: 5px;
+            margin: 5px;
+            font-weight: bold;
+        }
+        /* About Section */
+        #about {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+        /* Skills Section */
+        #skills {
+            padding: 50px 20px;
+            background: linear-gradient(to right, #a4bad3, #5739df);
+        }
+        #skills div {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        #skills div h3 {
+            text-align: center;
+            color: #f1f1f1;
+        }
+        /* Projects Section */
+        #projects {
+            padding: 50px 20px;
+        }
+        #projects div {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        #projects .project-card {
+            width: 300px;
+            border: 1px solid #9cd0f3;
+            border-radius: 5px;
+            overflow: hidden;
+            background: rgb(53, 138, 207);
+        }
+        #projects img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        #projects .project-card h3 {
+            margin: 10px;
+        }
+        #projects .project-card p {
+            margin: 10px;
+        }
+        /* Contact Section */
+        #contact {
+            padding: 50px 20px;
+            background: #719e9a;
+            color: rgb(33, 10, 65);
+        }
+        #contact form {
+            max-width: 500px;
+            margin: auto;
+        }
+        #contact input, #contact textarea, #contact button {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        #contact button {
+            background: rgb(78, 80, 197);
+            color: #f8f3f6;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        /* Footer */
+        footer {
+            padding: 20px;
+            background: #2f043a;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="content">
+            <h1>Hi There! I'm Sharia Dora</h1>
+            <h2>A Frontend Engineer & Creative Problem Solver.</h2>
+            <p>I Help Startups Launch And Grow Their Products</p>
+        </div>
+        <div class="graphic">
+            <img src="https://img.freepik.com/premium-vector/software-developer-vector-illustration-communication-technology-cyber-security_1249867-5477.jpg?semt=ais_hybrid" alt="Cartoon Developer">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+            <style>
+                body {
+                    font-family: 'Poppins', sans-serif;
+                }
+            </style>
+            
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>
+            I’m a front-end developer passionate about creating accessible, pixel-perfect user interfaces that seamlessly blend design and engineering. I specialize in building intuitive, user-centered digital experiences that are performant and inclusive. <br>
+
+With experience spanning start-ups, digital studios, and large enterprises, I’ve honed my skills in crafting thoughtful UI components and accessible web solutions. I love turning ideas into reality and sharing knowledge, including releasing a course on building web apps with APIs. <br>
+
+Outside of work, I enjoy exploring new hobbies, painting, reading, and diving into creative adventures.
+
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 data-aos="fade-right">Expertise</h2>
+        <div>
+            <div data-aos="zoom-in">
+                <h3>HTML</h3>
+                <p>★★★★★</p>
+            </div>
+            <div data-aos="zoom-in">
+                <h3>CSS</h3>
+                <p>★★★★★</p>
+            </div>
+            <div data-aos="zoom-in">
+                <h3>JavaScript</h3>
+                <p>★★★★☆</p>
+            </div>
+            <div data-aos="zoom-in">
+                <h3>React</h3>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 data-aos="fade-left">My Projects</h2>
+        <div>
+            <div class="project-card" data-aos="flip-up">
+                <img src="https://github.com/Sharia-D/weather-app/blob/main/assets/weather-logo.jpg?raw=true" alt="Weather App" style="width:100%; height:auto;">                <h3>Weather App</h3>
+                <p>An interactive weather application that provides real-time weather updates for multiple cities.</p>
+                <!__An interactive weather application that provides real-time weather updates for multiple cities using OpenWeatherMap API>
+
+                <a href="https://sharia-d.github.io/weather-app/" style="color: #fbfdff;">View Live</a> | <a href="https://github.com/sharia-d/weather-app" style="color: #f2f5f8;">GitHub</a>
+            </div>
+            <div class="project-card" data-aos="flip-up">
+                <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A brief description of the project and its features.</p>
+                <a href="#" style="color: #e8eaee;">View Live</a> | <a href="#" style="color: #f7f8fa;">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+        <a href="#hero" style="color: #2575fc;">Back to Top</a>
+    </footer>
+
+    <!-- AOS Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
